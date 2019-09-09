@@ -20,6 +20,7 @@ int main()
 {
 //number of user
 int nu;
+	cin>>nu;
 //querytype
 int qtype;
 //recharge amount
