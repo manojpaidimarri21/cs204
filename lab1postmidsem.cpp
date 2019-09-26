@@ -112,7 +112,7 @@ for(int i=0;i<tc;i++)
 		{
 			d[l]=distance(t[l]);
     	}
-    	cout<<blum(d,0,k-1,(k+1)/2);
+    	cout<<blum(d,0,k-1,(k+1)/2)<<endl;
 	}
 return 0;
 }  
