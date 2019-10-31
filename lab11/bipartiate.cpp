@@ -34,12 +34,6 @@ int main()
         v[x-1].push_back(y-1);
         v[y-1].push_back(x-1);
     }
-    // for(int i=0;i<n;i++)
-    // cout<<C[i];
-    // for(lli i=0;i<n;i++)
-    // for(int j=0;j<v[i].size();j++)
-    // cout<<v[i][j]<<'c'<<i<<' ';
-    // cout<<endl;
     for(lli i=0;i<n;i++)
     {
         if(C[i]==-1)
