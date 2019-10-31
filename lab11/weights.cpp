@@ -44,6 +44,7 @@ int main()
             C.push_back(-1);
         }
     }
+
     for(lli i=0;i<v.size();i++)
     {
         if(C[i]==-1)
