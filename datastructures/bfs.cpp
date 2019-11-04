@@ -1,3 +1,13 @@
+/*
+given a set of cities numbered from 0 , and cities are connected by single way road.
+given city number as input print all the cities (including it) to which we can go from given city
+without violating one way roads
+input format:
+number of cities
+number of bridges
+bridge source and destinations(source is the place from where we can start)
+city number from where you are starting.
+*/
 #include<iostream> 
 #include <list> 
 using namespace std; 
@@ -71,3 +81,15 @@ int main()
 
     return 0; 
 } 
+/*
+input:
+5
+4
+0 2
+2 1
+0 1
+3 4
+0
+output:
+0 2 1
+*/
