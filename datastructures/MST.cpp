@@ -137,7 +137,7 @@ int main()
    KrushkalMSt(graph,k); 
    			for (int i = 0; i < V-1; ++i)
    			{
-   			   sum=sum+k[i];
+   			   sum=sum+graph->edge[i].weight;
    			}
 
 		       cout<<sum;
