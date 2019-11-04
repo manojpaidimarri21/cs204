@@ -1,4 +1,5 @@
 /*
+cities are numbered from 0.
 There are V number of cities in a country and E number of one way roads.
 A company want to establish a first branch in this city.Assume that raw material is available
 in every city and the only cost differ from transporting charges.
