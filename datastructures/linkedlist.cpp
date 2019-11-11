@@ -175,16 +175,16 @@ int main(){
 			cin>>a;
                         search(a,&start);
                 }
-                else if(condition==6){
+                else if(condition==7){
                         print(&start);
                 }
-                else if(condition==7){
+                else if(condition==8){
                         int a,b;
                         cin>>a;
                         cin>>b;
                         insert(a,b,&start);
                 }
-                else if(condition==8){
+                else if(condition==9){
                         length(&start);
                 }
                 else cout<<"invalid"<<endl;
