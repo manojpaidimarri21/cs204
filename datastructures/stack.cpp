@@ -68,7 +68,7 @@ void size(node ** headptr)
 	while (tmp!=NULL)
 	{
 		tmp = tmp->next;
-		i++;
+		len++;
 	}
 	cout<<len<<"\n";
 }
@@ -77,7 +77,7 @@ int main()
 {
 	node* start = NULL;
 	int a=0;
-		while(a!=5){
+		while(a!=-1){
 			cin>>a;
 			if(a==1)
 			{
@@ -99,3 +99,15 @@ int main()
 			}
 		}
 }
+/*
+input :
+1 1
+1 2
+3
+4
+-1
+output:
+2
+2
+
+*/
